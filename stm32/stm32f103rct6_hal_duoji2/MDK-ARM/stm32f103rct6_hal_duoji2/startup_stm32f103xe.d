@@ -1,0 +1,1 @@
+stm32f103rct6_hal_duoji2\startup_stm32f103xe.o: startup_stm32f103xe.s
