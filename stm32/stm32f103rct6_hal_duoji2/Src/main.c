@@ -108,32 +108,25 @@ int main(void)
 
   /* USER CODE BEGIN 3 */
 		 
-//		HAL_Delay(1000);
-//		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,5);
-// HAL_Delay(1000);
-//		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,10);
-//		
-//		HAL_Delay(1000);
-//		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,15);
-//		HAL_Delay(1000);
-//		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,20);
-//		HAL_Delay(1000);
-//		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,24);
-//		
-//			HAL_Delay(1000);
-//		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,20);
-//			HAL_Delay(1000);
-//		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,15);
-//HAL_Delay(1000);
-//		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,10);
-//			HAL_Delay(1000);
-//		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,5);
+		HAL_Delay(1000);
+		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,5);
+ HAL_Delay(1000);
+		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,10);
+		
+		HAL_Delay(1000);
+		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,15);
+		HAL_Delay(1000);
+		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,20);
+			HAL_Delay(1000);
+		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,15);
+HAL_Delay(1000);
+		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,10);
+			HAL_Delay(1000);
+		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,5);
 
 	
 	
-	HAL_Delay(1000);
-		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,20);
-		
+
 		
 	 }
   /* USER CODE END 3 */
